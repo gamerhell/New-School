@@ -1,0 +1,78 @@
+/* Icon Font Styles */
+@font-face {
+    font-family: 'vedic-icons';
+    src: url('../fonts/vedic-icons.woff2') format('woff2'),
+         url('../fonts/vedic-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'vedic-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Icon mappings - using Unicode characters as fallback */
+.icon-graduation-cap:before { content: "🎓"; }
+.icon-phone:before { content: "📞"; }
+.icon-mail:before { content: "📧"; }
+.icon-map-pin:before { content: "📍"; }
+.icon-calendar:before { content: "📅"; }
+.icon-clock:before { content: "🕐"; }
+.icon-user:before { content: "👤"; }
+.icon-users:before { content: "👥"; }
+.icon-book-open:before { content: "📖"; }
+.icon-award:before { content: "🏆"; }
+.icon-heart:before { content: "❤️"; }
+.icon-target:before { content: "🎯"; }
+.icon-eye:before { content: "👁️"; }
+.icon-lightbulb:before { content: "💡"; }
+.icon-calculator:before { content: "🧮"; }
+.icon-globe:before { content: "🌍"; }
+.icon-palette:before { content: "🎨"; }
+.icon-music:before { content: "🎵"; }
+.icon-dumbbell:before { content: "🏋️"; }
+.icon-facebook:before { content: "📘"; }
+.icon-twitter:before { content: "🐦"; }
+.icon-instagram:before { content: "📷"; }
+.icon-youtube:before { content: "📺"; }
+.icon-folder:before { content: "📁"; }
+.icon-tag:before { content: "🏷️"; }
+
+/* Alternative text-based icons for better compatibility */
+.icon-graduation-cap.text:before { content: "🎓"; }
+.icon-phone.text:before { content: "☎"; }
+.icon-mail.text:before { content: "✉"; }
+.icon-map-pin.text:before { content: "📍"; }
+.icon-calendar.text:before { content: "📅"; }
+.icon-clock.text:before { content: "⏰"; }
+.icon-user.text:before { content: "👤"; }
+.icon-users.text:before { content: "👥"; }
+.icon-book-open.text:before { content: "📚"; }
+.icon-award.text:before { content: "🏆"; }
+.icon-heart.text:before { content: "♥"; }
+.icon-target.text:before { content: "🎯"; }
+.icon-eye.text:before { content: "👁"; }
+.icon-lightbulb.text:before { content: "💡"; }
+
+/* Icon sizes */
+.icon-sm { font-size: 0.875rem; }
+.icon-md { font-size: 1rem; }
+.icon-lg { font-size: 1.25rem; }
+.icon-xl { font-size: 1.5rem; }
+.icon-2xl { font-size: 2rem; }
+
+/* Icon colors */
+.icon-primary { color: #f97316; }
+.icon-secondary { color: #6b7280; }
+.icon-success { color: #10b981; }
+.icon-warning { color: #f59e0b; }
+.icon-danger { color: #ef4444; }
+.icon-white { color: #ffffff; }
